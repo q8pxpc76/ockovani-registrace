@@ -61,5 +61,5 @@ if text == browser.find_element_by_class_name("radio__txt").text:
 else:
 	browser.find_element_by_xpath("//input[@value='270']").click()
 	browser.find_element_by_id('DataConfirmation').click()
-	browser.find_element_by_class_name("g-recaptcha btn btn--primary btn--submit").click
+	browser.find_element_by_class_name("g-recaptcha btn btn--primary btn--submit").click()
 
